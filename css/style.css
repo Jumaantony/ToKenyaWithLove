@@ -1,0 +1,114 @@
+
+
+.nav-link{
+	font-weight: bolder;
+}
+
+	
+
+/*.header-img{
+	opacity: 0.8;
+} */
+
+.first-header{
+	color: red;
+}
+
+.first-header-info{
+	font-weight: bolder;
+}
+
+.who-we-are, .card-title{
+	color: red;
+}
+.what-we-do, .causes{
+	color: green;
+}
+
+.how-to-help{
+	color: red;
+}
+
+.help-title{
+	color: green;
+}
+
+.help-title:hover{
+	color: red;
+}
+
+
+.get-in-touch{
+	height: 40vh;
+	background-image: url(../images/sponsor.jpg);
+	background-size: cover;
+	color: white;
+	background-attachment: fixed;
+	background-blend-mode: color;
+	position: relative;
+}
+
+.get-in-touch::before{
+	content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(5, 4, 82, 0.5);
+
+}
+
+.donate{
+	position: relative;
+	
+}
+
+.btn-in-touch{
+	position: relative;
+}
+
+.news, footer{
+	height: auto;
+	background-image: url(../images/construction.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-blend-mode: color;
+	position: relative;
+}
+
+.news::before, footer::before{
+	content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(5, 4, 82, 0.5);
+}
+
+footer{
+	background-image: url(../images/tkwl.jpg);
+}
+
+.foot-cont{
+	position: relative;
+}
+
+.foot-img{
+	height: 80px;
+	width: 80px;
+}
+
+.p-about{
+	position: relative;
+	color: white
+}
+
+.foot-title{
+	color: green;
+}
+
+.foot-sub{
+	color: white;
+}
