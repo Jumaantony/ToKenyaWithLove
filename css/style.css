@@ -1,7 +1,9 @@
 
 
-.nav-link{
+a.nav-link{
+	color: black;
 	font-weight: bolder;
+	
 }
 
 	
@@ -12,6 +14,7 @@
 
 .first-header{
 	color: red;
+	font-size: 6vw;
 }
 
 .first-header-info{
