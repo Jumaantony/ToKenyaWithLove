@@ -1,4 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-height: 100%vh;
+    width: 100%vh;
+}
 
+
+/** index page **/
+
+.index-header{
+	height: 50vh;
+	width: 100%;
+	background-image: url(../images/tkwl.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+
+}
+
+.two{
+	background-image: url(../images/sponsor.jpg);
+}
+
+.three{
+	background-image: url(../images/who-img.jpg);
+
+}
 
 a.nav-link{
 	color: black;
@@ -6,15 +34,10 @@ a.nav-link{
 	
 }
 
-	
-
-/*.header-img{
-	opacity: 0.8;
-} */
 
 .first-header{
 	color: red;
-	font-size: 6vw;
+	font-size: 5%vh;
 }
 
 .first-header-info{
@@ -26,6 +49,10 @@ a.nav-link{
 }
 .what-we-do, .causes{
 	color: green;
+}
+
+.help-div{
+	height: 500px;
 }
 
 .how-to-help{
@@ -40,6 +67,9 @@ a.nav-link{
 	color: red;
 }
 
+.help-info{
+	text-align: justify;
+}
 
 .get-in-touch{
 	height: 40vh;
@@ -71,7 +101,7 @@ a.nav-link{
 	position: relative;
 }
 
-.news, footer{
+.news, .volunteers, footer{
 	height: auto;
 	background-image: url(../images/construction.jpg);
 	background-size: cover;
@@ -80,7 +110,7 @@ a.nav-link{
 	position: relative;
 }
 
-.news::before, footer::before{
+.news::before, footer::before .volunteers::before{
 	content: "";
     position: absolute;
     top: 0px;
@@ -115,3 +145,41 @@ footer{
 .foot-sub{
 	color: white;
 }
+
+
+/** About page **/
+
+.about-header{
+	height: 40vh;
+	width: 100%;
+	background-image: url(../images/tkwl.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.aboutUs{
+	background-image: url(../images/about-us.jpg);
+	background-position: right;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.aboutus-p{
+	text-align: justify;
+}
+
+.volunteers{
+	height: 250px;
+	align-items: center;
+	padding-top: 50px;
+	background-image: url(../images/volunteer-bg.jpg);
+}
+
+.volunteer-img{
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+}
+
