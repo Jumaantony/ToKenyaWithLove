@@ -106,6 +106,7 @@ a.nav-link{
 	background-image: url(../images/construction.jpg);
 	background-size: cover;
 	background-attachment: fixed;
+	background-position: center;
 	background-blend-mode: color;
 	position: relative;
 }
@@ -146,25 +147,23 @@ footer{
 	color: white;
 }
 
+.foot-nav{
+	justify-content: center;
+}
+
 
 /** About page **/
 
 .about-header{
 	height: 40vh;
-	width: 100%;
+	width: : 100%;
 	background-image: url(../images/tkwl.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: center;
+	background-position: bottom-center;
 }
 
-.aboutUs{
-	background-image: url(../images/about-us.jpg);
-	background-position: right;
-	background-size: cover;
-	background-repeat: no-repeat;
 
-}
 
 .aboutus-p{
 	text-align: justify;
@@ -172,7 +171,6 @@ footer{
 
 .volunteers{
 	height: 250px;
-	align-items: center;
 	padding-top: 50px;
 	background-image: url(../images/volunteer-bg.jpg);
 }
@@ -183,3 +181,78 @@ footer{
 	width: 150px;
 }
 
+
+.causes-header{
+	height: 40vh;
+	width: : 100%;
+	background-image: url(../images/about-us.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.success-img{
+	height: 150px;
+	width: 150px;
+}
+
+.success-stories{
+	background-image: url(../images/sunrise.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-blend-mode: ;
+}
+
+.success-stories::before{
+	content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(5, 4, 82, 0.2);
+}
+
+.blog-img{
+	width: 100%;
+}
+
+.blog-info{
+	text-align: justify;
+	margin-left: -6px;
+}
+
+.blog-more{
+	margin-left: -6px;
+}
+
+.thoughts{
+	background-color: #A5D6A7; 
+}
+
+.comment-body{
+	text-align: justify;
+	background-color: #A5D6A7;
+}
+
+.comment-form{
+	border: solid 2px green;
+}
+
+#Comment{
+	height: 150px;
+}
+
+.contct {
+	height: 330px;
+}
+
+.conct-title{
+	color: #1A237E;
+}
+
+
+.contact-cont2{
+	justify-content: center;
+}
