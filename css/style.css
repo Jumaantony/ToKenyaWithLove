@@ -256,3 +256,9 @@ footer{
 .contact-cont2{
 	justify-content: center;
 }
+
+.map{
+	width: 90%;
+	height: 400px;
+	align-self: center;
+}
