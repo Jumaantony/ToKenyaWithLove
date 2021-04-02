@@ -156,11 +156,11 @@ footer{
 
 .about-header{
 	height: 40vh;
-	width: : 100%;
-	background-image: url(../images/tkwl.jpg);
+	width: 100%;
+	background-image: url(../images/about.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: bottom-center;
+	background-position: center;
 }
 
 
@@ -181,6 +181,8 @@ footer{
 	width: 150px;
 }
 
+
+/* causes page */
 
 .causes-header{
 	height: 40vh;
@@ -214,6 +216,9 @@ footer{
     background-color: rgba(5, 4, 82, 0.2);
 }
 
+/* blog page */
+
+
 .blog-img{
 	width: 100%;
 }
@@ -243,6 +248,18 @@ footer{
 #Comment{
 	height: 150px;
 }
+
+/* contact page */
+
+.contact-header{
+	height: 50vh;
+	width: 100%;
+	background-image: url(../images/contact.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
 
 .contct {
 	height: 330px;
